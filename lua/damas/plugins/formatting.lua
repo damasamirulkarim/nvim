@@ -6,9 +6,8 @@ return {
 
     conform.setup({
       formatters_by_ft = {
-        json = { "prettier" },
+        go = { "gofmt" },
         yaml = { "prettier" },
-        graphql = { "prettier" },
         lua = { "stylua" },
       },
       format_on_save = {

@@ -27,9 +27,17 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
+        -- Go
+        "gopls",
+        "staticcheck",
+        "gofmt",
+        
+        -- YAML
+        "yamlfmt",
+        "yaml-language-server",
+
+        -- Others
         "lua_ls",
-        "graphql",
-        "golangcli-lint"
       },
     })
 

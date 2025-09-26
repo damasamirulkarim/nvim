@@ -83,19 +83,7 @@ return {
 			},
 		})
 
-		vim.lsp.config("yamlls", {
-			settings = {
-				yaml = {
-					validate = true,
-					schemaStore = { enable = true },
-					hover = true,
-					completion = true,
-				},
-			},
-		})
-
 		-- Enable servers
 		vim.lsp.enable("gopls")
-		vim.lsp.enable("yamlls")
 	end,
 }

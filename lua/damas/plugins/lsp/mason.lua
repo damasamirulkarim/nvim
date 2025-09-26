@@ -29,11 +29,6 @@ return {
 			ensure_installed = {
 				-- Go
 				"gopls",
-				"staticcheck",
-				"gofmt",
-
-				-- YAML
-				"yamlfmt",
 			},
 		})
 

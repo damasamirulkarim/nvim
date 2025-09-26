@@ -22,9 +22,8 @@ return {
       },
       -- ensure these language parsers are installed
       ensure_installed = {
-        "json",
+        "go",
         "yaml",
-        "graphql",
         "bash",
         "lua",
         "vim",

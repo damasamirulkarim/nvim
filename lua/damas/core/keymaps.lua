@@ -1,3 +1,5 @@
+---@diagnostic disable: undefined-global
+
 -- set leader key to space
 vim.g.mapleader = " "
 

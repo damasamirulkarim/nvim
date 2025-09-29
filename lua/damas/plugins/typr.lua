@@ -3,8 +3,8 @@ return {
 		"nvzone/typr",
 		dependencies = "nvzone/volt",
 		opts = {
-			only_letter = true,
-		}, -- no setup needed
+			-- only_letter = true,
+		},
 		cmd = { "Typr", "TyprStats" },
 	},
 }
